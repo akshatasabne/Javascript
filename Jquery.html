@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <input type="button" id="btn1" value="Show" />
+    <input type="button" id="btn2" value="Hide" />
+
+    <div>
+        I am akshata sabne
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $("#btn2").click(function () {
+                $("div").hide();
+            });
+            $("#btn1").click(function () {
+                $("div").show();
+            });
+
+        });
+    </script>
+</body>
+</html>
